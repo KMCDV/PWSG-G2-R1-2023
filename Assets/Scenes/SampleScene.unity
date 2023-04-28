@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 167809790}
   - component: {fileID: 167809789}
   - component: {fileID: 167809788}
+  - component: {fileID: 167809792}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -220,6 +221,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &167809792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167809787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed05ec084ac766498615d372792d724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  howMuchHealthToHeal: {fileID: 11400000, guid: f6ef730494eb9e743bf810e9541db2bb,
+    type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,8 +524,9 @@ GameObject:
   - component: {fileID: 814232125}
   - component: {fileID: 814232124}
   - component: {fileID: 814232123}
+  - component: {fileID: 814232127}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Medium Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -594,6 +610,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &814232127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814232122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed05ec084ac766498615d372792d724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  howMuchHealthToHeal: {fileID: 11400000, guid: 55ac5f2502ef067418dc6139c1d82b84,
+    type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,6 +740,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Cubes
       objectReference: {fileID: 0}
+    - target: {fileID: 665199732800167927, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277347035936033305, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277347035936033305, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a92a87cfebaeaf746b5e4391f7b8dc60, type: 3}
 --- !u!1 &929893506
@@ -724,6 +769,7 @@ GameObject:
   - component: {fileID: 929893509}
   - component: {fileID: 929893508}
   - component: {fileID: 929893507}
+  - component: {fileID: 929893511}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -809,6 +855,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929893511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929893506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed05ec084ac766498615d372792d724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  howMuchHealthToHeal: {fileID: 11400000, guid: f6ef730494eb9e743bf810e9541db2bb,
+    type: 2}
 --- !u!1 &1391931345
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +881,7 @@ GameObject:
   - component: {fileID: 1391931348}
   - component: {fileID: 1391931347}
   - component: {fileID: 1391931346}
+  - component: {fileID: 1391931350}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -906,3 +967,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391931350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391931345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed05ec084ac766498615d372792d724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  howMuchHealthToHeal: {fileID: 11400000, guid: f6ef730494eb9e743bf810e9541db2bb,
+    type: 2}
