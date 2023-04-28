@@ -643,6 +643,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &896039272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074848257490779, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 665199732800167927, guid: a92a87cfebaeaf746b5e4391f7b8dc60,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Cubes
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a92a87cfebaeaf746b5e4391f7b8dc60, type: 3}
 --- !u!1 &929893506
 GameObject:
   m_ObjectHideFlags: 0
