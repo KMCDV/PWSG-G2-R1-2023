@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using DG.Tweening;
 
 public class PlayerHealthText : MonoBehaviour, IGameEventListener
 {
@@ -32,6 +33,7 @@ public class PlayerHealthText : MonoBehaviour, IGameEventListener
 
     public void Notify()
     {
+        transform.DOScale(1.1f, .5f).SetRelative(true).SetLoops(2, LoopType.Yoyo);
         StartCoroutine(MakeRedForOneSecond());
     }
 
